@@ -56,15 +56,16 @@
             {
                 convertedAmount = (Amount * 1.07);
                 Console.WriteLine("The currency has been converted to Euro:E" + convertedAmount);
-
+               //goto selection;
             }
 
             else
             {
                 Console.WriteLine("Invalid selction");
             }
+            
             Console.Write("Would you like to perform another convertion?(Y=yes,N=No):");
-
+      
            
         } while (Console.ReadLine().ToUpper() == "Y");
         
